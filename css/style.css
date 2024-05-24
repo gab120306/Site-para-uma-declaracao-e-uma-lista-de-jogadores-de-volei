@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 102, 255);
+}
+
+.box1{
+    display: flex;
+    position: absolute;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    width: 40%;
+    height: 160%;
+    left: 30%;
+    top: 10%;
+}
+
+.titulo1{
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 100%;
+}
+
+#idNome{
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    border-radius: 10px;
+    height: 5%;
+    width: 65%;
+}
+
+#idRM{
+    position: absolute;
+    top: 30%;
+    left: 12%;
+    border-radius: 10px;
+    height: 5%;
+    width: 65%;
+}
+#idPeriodo{
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    border-radius: 10px;
+    height: 5%;
+    width: 65%;
+}
+#idCurso{
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    border-radius: 10px;
+    height: 5%;
+    width: 65%;
+}
+#idInstituicao{
+    position: absolute;
+    top: 60%;
+    left: 12%;
+    border-radius: 10px;
+    height: 5%;
+    width: 65%;
+}
+#idDisciplina{
+    position: absolute;
+    top: 70%;
+    left: 12%;
+    border-radius: 10px;
+    height: 5%;
+    width: 65%;
+   
+}
+
+.texto1{
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    font-size: 1.5em;
+}
+.bts{
+    display: flex;
+    position: absolute;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    width:15%;
+    height: 40%;
+    left: 10%;
+    top: 50%;
+}
+.titulo2{
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 100%;
+}
+
+.esportivo{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 80%;
+    height:10%;
+    font-size: 1em;
+    background-color: rgb(0, 255, 128);
+}
+.Classico{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 80%;
+    height:10%;
+    font-size: 1em;
+    background-color: darkblue;
+    color: white;
+    
+}
+.Moderno{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 80%;
+    height:10%;
+    font-size: 1em;
+    background-color: #2692ab;
+    
+}
+.dec{
+    position: absolute;
+    display: flex;
+    color: black;
+    top: 2%;
+    left: 69%;
+    font-size: 1.4em;
+}
+
+.dec:hover{
+    color: white;
+}
+.lista{
+    position: absolute;
+    display: flex;
+    color: black;
+    text-decoration-line: none;
+    top: 2%;
+    left: 80%;
+    font-size: 1.4em;
+}
+
+.lista:hover{
+    color: white;
+}
+.github{
+    position: absolute;
+    display: flex;
+    color: black;
+    text-decoration-line: none;
+    top: 2%;
+    left: 59%;
+    font-size: 1.4em;
+}
+.github:hover{
+    color: white;
+}
+
